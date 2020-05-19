@@ -6,7 +6,7 @@ def join_nested_strings(src)
     collumn = 0 
     while collumn < src[row].count do
       if src[row][collumn].class == String
-        all_strings += src[row][collumn]
+        all_strings += src[row][collumn] + " "
       end
       collumn += 1
     end
