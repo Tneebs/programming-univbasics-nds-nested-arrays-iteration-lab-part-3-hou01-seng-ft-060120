@@ -1,5 +1,11 @@
 def join_nested_strings(src)
+  all_strings = ""
+  row = 0 
   
+  while row < src.count do
+    collumn = 0 
+    while collumn < src[row].count do
+      
 end
 
 
