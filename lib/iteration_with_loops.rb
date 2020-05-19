@@ -8,6 +8,11 @@ def join_nested_strings(src)
       if src[row][collumn].class == String
         all_strings += src[row][collumn].count
       end
+      collumn += 1
+    end
+    row += 1 
+  end
+  all_strings
 end
 
 
